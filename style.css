@@ -1,0 +1,56 @@
+header {
+  display: flex;
+  background-color: skyblue;
+  min-height: 8vh;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  font-size: 20pt;
+  width: 100%;
+}
+
+.header-text {
+  margin: 0;
+  color: white;
+}
+
+.left-section {
+  padding-top: 3em;
+  flex-direction: column;
+  width: 60%;
+  margin: 0;
+  margin-right: 0em;
+  padding-left: 10em;
+  align-items: center;
+  font-size: 14pt;
+}
+
+.right-section {
+  padding-top: 8em;
+  padding-right: 0em;
+  margin-left: 2em;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.photo {
+  height: 200px;
+  width: 200px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: skyblue;
+  min-height: 2rem;
+}
+
+.blue-bar {
+  height: 2vh;
+  background-color: blue;
+}
